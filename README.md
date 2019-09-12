@@ -13,7 +13,7 @@ Many find B2 appealing because of its free bandwidth deal with Cloudflare via th
 
 Place in a `.yml` file such as this one in your `.github/workflows` folder. [Refer to the documentation on workflow YAML syntax here.](https://help.github.com/en/articles/workflow-syntax-for-github-actions)
 
-```
+```yaml
 name: Sync B2 Bucket
 on: push
 
