@@ -42,10 +42,10 @@ jobs:
 
 The following variables should be added as "secrets" in the action's configuration.
 
-| Key | Value | Type | Required |
-| ------------- | ------------- | ------------- | ------------- |
-| `B2_BUCKET` | The name of the bucket you're syncing to. For example, `my_files`. | `secret` | **Yes** |
-| `B2_APPKEY_ID` | Your Backblaze Application Key ID. [Generate it here.](https://secure.backblaze.com/app_keys.htm) | `secret` | **Yes** |
+| Key | Value                                                                                                                 | Type | Required |
+| ------------- |-----------------------------------------------------------------------------------------------------------------------| ------------- | ------------- |
+| `B2_BUCKET` | The Backblaze B2 path in form `b2://<bucketName>/<prefix>`. Prefix is optional. <br/> Examples: `b2://my-bucket-name/a/path/prefix/` or `b2://my-bucket-name`.  | `secret` | **Yes** |
+| `B2_APPKEY_ID` | Your Backblaze Application Key ID. [Generate it here.](https://secure.backblaze.com/app_keys.htm)                     | `secret` | **Yes** |
 | `B2_APPKEY` | Your Backblaze Application Key — aka the "secret" key. [Generate it here.](https://secure.backblaze.com/app_keys.htm) | `secret` | **Yes** |
 
 
